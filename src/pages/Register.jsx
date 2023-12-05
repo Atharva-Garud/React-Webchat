@@ -78,7 +78,7 @@ const Register = () => {
           </label>
           <button disabled={loading}>Sign up</button>
           {loading && "Uploading and compressing the image please wait..."}
-          {err && <span>Something went wrong</span>}
+          {err && <span>Enter correct details</span>}
         </form>
         <p>
           Have an account? <Link to="/login">Login</Link>
